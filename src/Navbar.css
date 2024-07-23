@@ -1,0 +1,28 @@
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}

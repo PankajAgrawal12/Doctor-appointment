@@ -1,0 +1,76 @@
+/* HeroSection.css */
+
+.hero-container {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1rem;
+    flex-direction: row;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    text-align: left;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #4caf50; /* Lime */
+  }
+  
+  .highlight-text {
+    color: #00bcd4; /* Cyan */
+  }
+  
+  .hero-description {
+    margin-top: 2.25rem;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1.25rem;
+    margin-top: 7rem;
+    align-items: center;
+  }
+  
+  .appointments-button {
+    padding: 0.875rem 2.5rem;
+    background-color: #00bcd4; /* Cyan */
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .hero-image {
+    width: 3.1875rem; /* 51px */
+    aspect-ratio: 1 / 1;
+  }
+  
+  .watch-video {
+    color: black;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hero-image-container {
+    width: 50%;
+    margin-left: 1.25rem;
+  }
+  
+  .hero-main-image {
+    width: 100%;
+    aspect-ratio: 0.93;
+    object-fit: cover;
+  }
+  
